@@ -155,7 +155,7 @@ function App() {
       </main>
       <h1>
         Total Expenses: <span className='total'>
-          $ {expenses.reduce((accumulator, currentValue) => {
+        ₦ {expenses.reduce((accumulator, currentValue) => {
             return (accumulator += parseFloat(currentValue.amount));
           }, 0)}
         </span>

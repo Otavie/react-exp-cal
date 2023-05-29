@@ -39,7 +39,7 @@ h1 {
 
 .App {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   background-color: var(--mainWhite);
   padding-bottom: 2rem;
   text-align: center;
@@ -194,7 +194,7 @@ label {
 
 .item {
   list-style: none;
-  width: 70%;
+  width: 90%;
   border: 1px solid gray;
   text-align: left;
   margin: 10px;
@@ -255,4 +255,13 @@ label {
 
 .amount {
   font-weight: 500;
+}
+
+@media only screen and (min-width: 650px) {
+  .item {
+    width: 70%;
+  }
+  .App {
+    width: 80%;
+  }
 }

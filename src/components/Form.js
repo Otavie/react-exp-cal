@@ -18,19 +18,19 @@ const Form = ({
                         className="form-control"
                         id="charge"
                         name="charge"
-                        placeholder="e.g. Rent"
+                        placeholder="e.g. Brown Shoes"
                         value={charge}
                         onChange={handleCharge}
                     />
                 </div>
                 <div className="form-group">
-                    <label htmlFor="amount">amount ($): </label>
+                    <label htmlFor="amount">amount (₦): </label>
                     <input 
                         type="number" 
                         className="form-control" 
                         id="amount" 
                         name="amount" 
-                        placeholder="e.g. 300"
+                        placeholder="e.g. 30000"
                         value={amount}  
                         onChange={handleAmount}
                     />
