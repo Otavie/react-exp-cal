@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-exp-cal/static/css/main.a80a6624.css",
+    "main.js": "/react-exp-cal/static/js/main.7534789e.js",
+    "index.html": "/react-exp-cal/index.html",
+    "main.a80a6624.css.map": "/react-exp-cal/static/css/main.a80a6624.css.map",
+    "main.7534789e.js.map": "/react-exp-cal/static/js/main.7534789e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a80a6624.css",
+    "static/js/main.7534789e.js"
+  ]
+}
