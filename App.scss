@@ -89,6 +89,9 @@ h1{
 
 .form{
   display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .form-center{
@@ -236,4 +239,11 @@ label{
   .App{
     width: 80%;
   }
+
+  .form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  
 }
