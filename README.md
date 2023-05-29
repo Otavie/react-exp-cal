@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Expenses Tracker
+[Expenses Tracker](https://otavie.github.io/react-exp-cal/) simple expenses tracker app built with React. Manage your expenses and stay on top of your finances.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- **Add Expenses** - Add new expenses with name and amount. For example, "Rent - $600", "Groceries - $200", etc.
+- **Edit Expenses** - Edit any existing expense to update the name or amount.
+- **Delete Expenses** - Remove expenses you no longer need to track.
+- **See Total Expenses** - See the total amount of all your expenses right on the homepage.
+- **Clear All Expenses** - Clear all expenses with a single button click.
+- **Persistence with LocalStorage** - Data is persisted between page refreshes using localStorage.
+- **Responsive Design** - The app is responsive and adapts to different screen sizes.
+- **Simple, Clean UI** - The UI is designed to be minimal and easy to use, focusing on the core functionality.
 
-## Available Scripts
+## Components
+The app is built with the following components:
 
-In the project directory, you can run:
+- **App.js** - Contains the main App component and state. Handles adding, editing, deleting and clearing expenses.
+- **Alert.js** - Renders an alert message when an expense is added/edited/deleted.
+- **Form.js** - Contains the form for adding or editing an expense.
+- **Item.js** - Renders an individual expense item with edit and delete buttons.
+- **List.js** - Renders all expense items and the "Clear Expenses" button.
 
-### `npm start`
+## Getting Started
+1. Clone the repository: git clone https://github.com/your/repo.git
+2. Install dependencies: npm install
+3. Start the development server: npm start
+4. The app will be available at http://localhost:3000
+5. Try adding, editing and deleting expenses to see functionality in action!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgement
+The React Application was initially developed by [Coding Addict](https://www.youtube.com/watch?v=f6HYLHrYpGs&list=PLgMICEduGwEzy6jqbR_yciKiGDsto74Dq) as React Hooks Project - Budget Calculator. I have made enhancements to the application by modifying the user interface and adapting the code to incorporate specific changes that I desired. These changes include the implementation of an Alert Warning feature, which allows users to receive warnings when attempting to either clear all items or delete a specific item.

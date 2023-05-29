@@ -126,7 +126,7 @@ function App() {
         </div>
       )}
 
-      <h1 className='expenses-header'>expenses calculator</h1>
+      <h1 className='expenses-header'>expenses tracker</h1>
 
       <main className="App">
         <Form 
